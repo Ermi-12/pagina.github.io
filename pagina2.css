@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* Barra de Navegacion */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #b298dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: #b3e9c7;
+}
+
+/* Seccion principal de consejo */
+
+.consejo {
+    width: 100%;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.consejo img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.consejo-texto {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.consejo-texto h1 {
+    color: #b298dc;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.consejo-texto h5 {
+    color: #b298dc;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.consejo-texto {
+    padding: 0.25em;
+    color: #303030;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.main {
+    width: 95%;
+    max-width: 1130px;
+    margin: 0 auto;
+    padding-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilos del footer */
+
+.footer {
+    background-color: #b298dc;
+    color: #fff;
+    margin: 10px;
+    padding: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .footer-left p {
+    font-size: 14px;
+  }
+  
+  .footer-right a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .footer-right img {
+    width: 30px;
+    height: 30px;
+  }

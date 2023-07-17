@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.container h1 {
+    padding: 0.5em;
+    color: #b298dc;
+}
+
+.container h3 {
+    padding: 0.75em;
+    color: #b298dc;
+}
+
+.container li {
+    text-align: justify;
+    list-style-type: none;
+    padding: 0.25em;
+    color: #303030;
+}
+  
+.header {
+    background-color: #b298dc;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+  
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+  
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: #b3e9c7;
+}
+  
+.introduction {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.mental img{
+    width: 250px;
+    height: 250px;
+}
+  
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+  
+.additional-info {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.additional-info h1{
+    color: #b298dc;
+    text-align: center;
+    font-size: 2em;
+}
+  
+.info-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.info-text h2 {
+    color: #b298dc;
+    padding: 0.5em;
+}
+  
+.info-text p {
+    color: #303030;
+    padding: 0.5em 0.7em;
+    text-align: justify;
+}
+  
+.info-image img {
+    width: 18em;
+    height: auto;
+}
+  
+.additional-info-2 {
+    background-color: #fff;
+    margin-bottom: 5em;
+}  
+
+.additional-info-2 img {
+    padding-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+  
+.footer {
+    background-color: #b298dc;
+    color: #fff;
+    margin: 10px;
+    padding: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .footer-left p {
+    font-size: 14px;
+  }
+  
+  .footer-right a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .footer-right img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* #b298dc -> morado
+  #b3e9c7 -> lima */
